@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Finca Pitahaya - Pitahaya Roja y Amarilla</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <div class="logo" aria-label="Logo Finca Pitahaya">Finca Pitahaya</div>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>Productos</h2>
+            <div class="product-card" tabindex="0" role="region" aria-label="Pitahaya Roja">
+                <div class="product-name">Pitahaya Roja</div>
+                <img class="product-image" src="Imagenes/Pitaya roja .jpg" />
+                <div class="price">Precio: <span>$3,500</span> por kilo</div>
+            </div>
+            <div class="product-card" tabindex="0" role="region" aria-label="Pitahaya Amarilla">
+                <div class="product-name">Pitahaya Amarilla</div>
+                <img class="product-image" src="Imagenes/Pitaya amarilla.jpeg" alt="Imagen de Pitahaya Amarilla" />
+                <div class="price">Precio: <span>$4,200</span> por kilo</div>
+            </div>
+        </section>
+
+        <section class="schedule">
+            <h2>Horario de Atención</h2>
+            <p>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+            <p>Sábado: 9:00 AM - 2:00 PM</p>
+            <p>Domingo: Cerrado</p>
+        </section>
+
+        <section class="location">
+            <h2>Ubicación de la Finca</h2>
+            <div class="map-container" aria-label="Mapa con la ubicación de la finca">
+                <iframe 
+                    src="https://www.google.com/maps/embed/v1/view?key=YOUR_API_KEY&center=11.4689876,-85.8957518&zoom=12" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Ubicación de la finca en el mapa">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Finca Pitahaya. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
